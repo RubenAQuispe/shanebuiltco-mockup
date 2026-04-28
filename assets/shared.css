@@ -135,10 +135,10 @@ p { margin: 0 0 var(--space-3); }
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(15,15,15,0.50) 0%, rgba(15,15,15,0.65) 60%, rgba(15,15,15,0.92) 100%);
 }
-.hero-slide-1 { background-image: url('/assets/hero-main.jpg'); }
-.hero-slide-2 { background-image: url('/assets/work-2-commercial-newbuild.jpg'); }
-.hero-slide-3 { background-image: url('/assets/shane-fave-renovation.jpg'); }
-.hero-slide-4 { background-image: url('/assets/shane-retail-buildout.jpg'); }
+.hero-slide-1 { background-image: url('/shanebuiltco-mockup/assets/hero-main.jpg'); }
+.hero-slide-2 { background-image: url('/shanebuiltco-mockup/assets/work-2-commercial-newbuild.jpg'); }
+.hero-slide-3 { background-image: url('/shanebuiltco-mockup/assets/shane-fave-renovation.jpg'); }
+.hero-slide-4 { background-image: url('/shanebuiltco-mockup/assets/shane-retail-buildout.jpg'); }
 
 .hero::before {
   content: "";
@@ -350,12 +350,12 @@ footer a:hover { color: var(--brass-soft); }
   backdrop-filter: blur(4px);
   font-weight: 600;
 }
-.work-thumb.t-fave { background-image: url('/assets/shane-fave-renovation.jpg'); }
-.work-thumb.t-salon { background-image: url('/assets/shane-salon-suites.jpg'); }
-.work-thumb.t-retail { background-image: url('/assets/shane-retail-buildout.jpg'); }
-.work-thumb.t-harbison { background-image: url('/assets/shane-harbison.jpg'); }
-.work-thumb.t-customhome { background-image: url('/assets/work-1-customhome.jpg'); }
-.work-thumb.t-commercial { background-image: url('/assets/work-2-commercial-newbuild.jpg'); }
+.work-thumb.t-fave { background-image: url('/shanebuiltco-mockup/assets/shane-fave-renovation.jpg'); }
+.work-thumb.t-salon { background-image: url('/shanebuiltco-mockup/assets/shane-salon-suites.jpg'); }
+.work-thumb.t-retail { background-image: url('/shanebuiltco-mockup/assets/shane-retail-buildout.jpg'); }
+.work-thumb.t-harbison { background-image: url('/shanebuiltco-mockup/assets/shane-harbison.jpg'); }
+.work-thumb.t-customhome { background-image: url('/shanebuiltco-mockup/assets/work-1-customhome.jpg'); }
+.work-thumb.t-commercial { background-image: url('/shanebuiltco-mockup/assets/work-2-commercial-newbuild.jpg'); }
 .work-card.coming .work-thumb { filter: grayscale(0.35); }
 .work-card.coming .work-thumb::before {
   content: "Coming Soon";
